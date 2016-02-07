@@ -1,0 +1,6 @@
+<div class="well">
+	Forecast of <strong ng-bind="fcst.city"></strong> for <strong ng-bind="fcst.days"></strong> days.
+</div>
+<div class="container" ng-repeat="obj in fcst.results.list">
+	<dis-forecast w-obj="obj" con-date="fcst.convertTodate(dT)" con-deg="fcst.convertTempCel(kel)" ></dis-forecast>
+</div>
