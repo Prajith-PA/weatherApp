@@ -10,6 +10,9 @@
     <description>
         A simple weather application
     </description>
+    <author href="http://gmail.com" email="prasool007@gmail.com">
+        Prasool
+</author>
  
 <access origin="*" />
 <allow-navigation href="http://*/*" >
